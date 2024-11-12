@@ -1,0 +1,23 @@
+.campaign-box {
+    background-color: #f4f6f9; /* Light background color for the card */
+    border: 1px solid #d8dde6; /* Border for the card */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.campaign-image {
+    width: 100px; /* Set the image width */
+    height: 100px; /* Set the image height */
+    border-radius: 5px; /* Rounded corners for the image */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.slds-text-heading_medium {
+    color: #0070d2; /* Salesforce brand blue for the campaign name */
+}
+
+.slds-text-body_small {
+    color: #4b4b4b; /* Darker text for campaign details */
+    margin-bottom: 5px; /* Add space between text lines */
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Send_Welcome_Email_to_Community_Members</fullName>
+        <description>Send Welcome Email to Community Members</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>pocnpsp@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Rise_Together_Email_Templates/Welcome_Email_to_Community_Members</template>
+    </alerts>
+    <alerts>
+        <fullName>Sends_Community_Member_Rejection_Notification</fullName>
+        <description>Sends Community Member Rejection Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>pocnpsp@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>RiseTogetherApprovalTemplates/Community_Member_Rejection_Notification_1729215902266</template>
+    </alerts>
+    <alerts>
+        <fullName>Sends_Community_member_Approval_Notification</fullName>
+        <description>Sends Community member Approval Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>pocnpsp@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>RiseTogetherApprovalTemplates/Community_Member_Approval_Notification_1729215008793</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Approval_Status_to_Approved</fullName>
+        <description>Updates Approval Status Field to APPROVED</description>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approval Status to Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Status_to_rejected</fullName>
+        <description>Updates Approval Status field to REJECTED</description>
+        <field>Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Approval Status to rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Member_Status_to_Active</fullName>
+        <description>Updates Member status field value to ACTIVE</description>
+        <field>Member_Status__c</field>
+        <literalValue>Active</literalValue>
+        <name>Member Status to Active</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

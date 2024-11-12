@@ -1,0 +1,14 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <div class="container">
+   <div class="header"><br /> <img alt="mainLogo" src="{[devName:mainLogo]}" style="max-width: 669.571875px" title="mainLogo" /><br /> Hello {{{Volunteer__c.Last_Name__c}}}, 
+    <p>Congratulations! We are pleased to inform you that your registration as a Volunteer has been successfully completed.</p>
+    <p>Thank you for joining!!</p>
+    <p>If you have any questions or need assistance, please don’t hesitate to reach out to us.</p> <br /> Warm Regards,<br /> Rise Together
+   </div>
+  </div>
+ </body>
+</html>

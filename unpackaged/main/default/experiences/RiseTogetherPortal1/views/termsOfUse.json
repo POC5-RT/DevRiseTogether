@@ -1,0 +1,160 @@
+{
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "dataProviders" : [ ],
+  "id" : "9059054c-3c1e-4a98-9458-7ebd94df170d",
+  "label" : "Terms of Use",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "Empower . Unite . Rise",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Rise Together",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "3a923e80-9afa-4645-b7b7-b8e794043ab8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5abcf8e1-e911-4876-8b0d-53992814fabc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCOYI2SKY33BDKDFSYU33EETGLTE",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "bannerAspectRatio" : "16:9",
+              "bannerHeight" : 450,
+              "bannerSubTitleTextColor" : "#ffffff",
+              "bannerTitleTextColor" : "#ffffff",
+              "callToActionButtonBackgroundColor" : "",
+              "callToActionButtonBackgroundColorHover" : "",
+              "callToActionButtonBorderColor" : "",
+              "callToActionButtonBorderColorHover" : "",
+              "callToActionButtonBorderStyles" : "",
+              "callToActionButtonTextColor" : "",
+              "callToActionButtonTextColorHover" : "",
+              "callToActionLabel" : "View",
+              "componentHoverEffect" : "none",
+              "contentWidth" : 80,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "#ffffff",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "#ffffff",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "hideTextElementsForVideo" : false,
+              "imageAltText" : "",
+              "imageUrl" : "{!CurrentItem.source.url}",
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "#ffffff",
+              "metadataTextDecoration" : "",
+              "overlayBackgroundColor" : "rgba(255, 255, 255, 0)",
+              "showButton" : false,
+              "showCaption" : true,
+              "showDateTime" : true,
+              "showEyebrow" : true,
+              "showEyebrowHighlight" : false,
+              "showFlag" : false,
+              "showMetadata1" : true,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : true,
+              "showMetadata2Highlight" : false,
+              "showTitle" : true,
+              "showTitleHighlight" : false,
+              "subTitle" : "",
+              "subTitleFontSize" : "regular",
+              "textAlignment" : "center center",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:bannerLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "957b2271-c571-492e-80d5-3ceea5df3bd7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d4dd2863-780c-4773-8641-2df3e81ad158",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><strong style=\"font-size: 28px;\">Terms of Use</strong></p><p><br></p><p>Welcome to <em>Rise Together</em>. By using our website and engaging with our services, you agree to the following terms and conditions. Please read these Terms of Use carefully before using our website or services.</p><h3>1. <strong>Acceptance of Terms</strong></h3><p>By accessing or using the <em>Rise Together</em> website, services, or any content provided, you agree to comply with and be bound by these Terms of Use, as well as our Privacy Policy. If you do not agree to these terms, please do not use our website or services.</p><h3>2. <strong>Modifications to Terms</strong></h3><p>We reserve the right to update or modify these Terms of Use at any time without prior notice. Any changes will be effective immediately upon posting on the website. It is your responsibility to review the Terms of Use periodically. Your continued use of the website after changes are posted constitutes your acceptance of the revised terms.</p><h3>3. <strong>Use of Website and Services</strong></h3><p>The <em>Rise Together</em> website and services are intended for personal and non-commercial use. You agree to use our website only for lawful purposes and in a manner that does not infringe on the rights of or restrict the use of the site by others.</p><p>Prohibited activities include:</p><ul><li>Using the website in any way that could harm or disable the website.</li><li>Uploading or transmitting any malicious software or code.</li><li>Attempting to gain unauthorized access to any part of the website or services.</li><li>Misrepresenting your identity or affiliation with any person or organization.</li></ul><h3>4. <strong>Intellectual Property</strong></h3><p>All content on the <em>Rise Together</em> website, including but not limited to text, images, logos, graphics, videos, and documents, is the intellectual property of <em>Rise Together</em> or its licensors, unless otherwise indicated. You may not use, copy, modify, distribute, or exploit any content without prior written permission from <em>Rise Together</em>.</p><h3>5. <strong>Donations and Transactions</strong></h3><p>When making a donation through our website, you agree to provide accurate payment and personal information. All donations are final and non-refundable unless explicitly stated otherwise. You may request a receipt for tax purposes, and <em>Rise Together</em> will provide it in accordance with applicable laws.</p><h3>6. <strong>Third-Party Links</strong></h3><p>Our website may contain links to third-party websites for your convenience. <em>Rise Together</em> does not endorse or assume responsibility for the content, privacy practices, or terms of use of any third-party sites. You acknowledge that you access and use these third-party websites at your own risk.</p><h3>7. <strong>Disclaimer of Warranties</strong></h3><p>The <em>Rise Together</em> website and services are provided \"as is\" and \"as available\" without warranties of any kind, either express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.</p><p><em>Rise Together</em> does not guarantee that the website will be error-free, secure, or available at all times. We are not responsible for any harm or damages caused by interruptions, errors, or omissions in the website's operation.</p><h3>8. <strong>Limitation of Liability</strong></h3><p>To the fullest extent permitted by law, <em>Rise Together</em> and its officers, directors, employees, or volunteers shall not be liable for any indirect, incidental, consequential, or punitive damages arising out of your access to or use of the website or services. This limitation of liability applies whether the claim is based on contract, tort, negligence, or any other legal theory.</p><h3>9. <strong>Indemnification</strong></h3><p>You agree to indemnify, defend, and hold harmless <em>Rise Together</em> and its affiliates, officers, directors, employees, and volunteers from any claims, liabilities, damages, losses, and expenses (including legal fees) arising out of your use of the website, violation of these Terms of Use, or infringement of any rights of a third party.</p><h3>10. <strong>Governing Law</strong></h3><p>These Terms of Use and your use of the website shall be governed by and construed in accordance with the laws of the state of [Insert State], without regard to its conflict of law principles. Any legal disputes arising out of these terms shall be subject to the exclusive jurisdiction of the courts located in [Insert City], [Insert State].</p><h3>11. <strong>Termination</strong></h3><p><em>Rise Together</em> reserves the right to terminate or suspend your access to the website and services, with or without notice, for any reason, including a breach of these Terms of Use.</p><h3>12. <strong>Contact Information</strong></h3><p>If you have any questions or concerns regarding these Terms of Use or your use of the website, please contact us at:</p><p><strong>Rise Together</strong></p><p>Email: [Insert Email Address]</p><p>Phone: [Insert Phone Number]</p><p>Mailing Address: [Insert Mailing Address]</p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "bf341360-3f32-405e-96d4-94996d348188",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2abb6c94-f423-4c77-adbe-ba05cddba7e3",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "1830e7f0-83c4-4399-81f5-5011ab96ca68",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Terms of Use"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ecdae1eb-eac3-4d3c-8f20-9a841b5aa627",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8b69843a-f6f6-48c3-8af4-3a4cde480840",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-terms-of-use"
+}

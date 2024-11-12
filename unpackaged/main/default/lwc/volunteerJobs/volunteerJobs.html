@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Volunteer Jobs">
+        <template if:true={volunteerJobs}>
+            <template for:each={volunteerJobs} for:item="job">
+                <lightning-layout key={job.Id} class="job-card">
+                    <lightning-layout-item>
+                        <div class="job-details">
+                            <p><strong>Job Name:</strong> {job.Name}</p>
+                            <p><strong>Open Positions:</strong> {job.Open_Jobs__c}</p>
+                            <p><strong>Total Positions:</strong> {job.Number_of_Position__c}</p>
+                        </div>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </template>
+        </template>
+        <template if:false={volunteerJobs}>
+            <p>No Volunteer Jobs available.</p>
+        </template>
+    </lightning-card>
+</template>

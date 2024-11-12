@@ -1,0 +1,19 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <div class="container">
+   <div class="header"><img alt="mainLogo" src="{[devName:mainLogo]}" style="max-width: 972.5921874999999px" title="mainLogo" /><br /> <br /> <br /> <br /> Hello {{{Volunteer__c.Last_Name__c}}},
+   </div>
+   <div class="content">
+    <p>Thank you for your interest in joining Rise Together.</p>
+    <p>After reviewing your registration, we regret to inform you that your application has{{{Volunteer__c.Approval_Status__c}}}&nbsp; at this time&nbsp;due to missing documentation or not meeting our eligibility criteria.</p>
+    <p>If you believe this is an oversight or would like to provide the necessary documentation, please contact us for assistance. We appreciate your understanding and encourage you to reapply once all requirements are met.</p>
+   </div>
+   <div class="footer">
+    Warm Regards,<br /> Rise Together
+   </div>
+  </div>
+ </body>
+</html>

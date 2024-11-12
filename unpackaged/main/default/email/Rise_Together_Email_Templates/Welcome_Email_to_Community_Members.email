@@ -1,0 +1,15 @@
+Hello {!Community_Member__c.Last_Name__c},
+
+Thank you for joining our community! We’re excited to have you onboard.
+
+Here are your registration details :
+Username : {!Community_Member__c.Username__c} 
+Member ID: {!Community_Member__c.Name}
+
+Your registration is currently {!Community_Member__c.Approval_Status__c} approval and your membership status is {!Community_Member__c.Member_Status__c}
+Once approved & activated, you will be notified.
+
+If you have any questions in the meantime, feel free to reach out to us.
+
+Best regards,  
+Rise Together Team

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To notify community members that their registration has been approved.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Community Member Approval Notification</name>
+    <pageDevName>Community_Member_Approval_Notification</pageDevName>
+    <relatedEntityType>Community_Member__c</relatedEntityType>
+    <style>none</style>
+    <subject>Your Community Member Registration is Approved!</subject>
+    <textOnly>[Image alt text: RiseTogetherLogo]  &lt; https://ajsd-b-dev-ed.develop.my.site.com/RiseTogetherPortal &gt; Hello {{{Community_Member__c.Last_Name__c}}},
+
+Congratulations!We are pleased to inform you that your registration as a Community Member has been successfully{{{Community_Member__c.Approval_Status__c}}}!
+
+Here is your status overview :
+
+Approval Status: {{{Community_Member__c.Approval_Status__c}}}
+
+Membership Status : {{{Community_Member__c.Member_Status__c}}}
+
+Thank you for Joining!!
+
+If you have any questions or need assistance, please don’t hesitate to reach out to us.
+
+Warm Regards
+
+Rise Together
+
+RiseTogether &lt; https://ajsd-b-dev-ed.develop.my.site.com/RiseTogetherPortal &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

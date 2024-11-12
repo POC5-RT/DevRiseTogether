@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Volunteer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Volunteers</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Volunteer Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Availability &amp; Interests --></label>
+            <section>Availability &amp; Interests</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Status Overview --></label>
+            <section>Status Overview</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The Guardian Name Should not be Empty for the Volunteer below !3 --></errorMessage>
+        <name>AGE_Below_13_restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Aadhar Number must contain 12 digits without spaces or specil Characters --></errorMessage>
+        <name>Aadhar_Number_12_digits</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Birth date cannot be a future date. --></errorMessage>
+        <name>DOB_not_future_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For age Below 13 Guardian Email should be provided --></errorMessage>
+        <name>Guardian_Email_Id_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Phone number must be exactly 10 characters (letters or numbers) --></errorMessage>
+        <name>Phone_Number_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter  a valid 10 digits phone number --></errorMessage>
+        <name>Phone_only_Digits_allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Volunteer status can not be changed to inactive once it is approved . --></errorMessage>
+        <name>Prevent_status_reversion_to_Inactive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Approval status can not be changed to Pending Once it is Approved Or Rejected --></errorMessage>
+        <name>Prevent_status_reversion_to_pending</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Should  not contain special characters or numbers --></errorMessage>
+        <name>Rule_for_FirstName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Should not contain special characters or numbers --></errorMessage>
+        <name>Rule_for_Last_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Username must be in the format of an email address (e.g., user@example.com). --></errorMessage>
+        <name>Username_Email_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

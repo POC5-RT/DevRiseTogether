@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Privacy_and_Usage_Consent__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>To indicate their agreement to the data privacy and usage terms set forth by the organization.</description>
+    <label>Data Privacy and Usage Consent</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

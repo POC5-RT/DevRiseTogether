@@ -1,0 +1,198 @@
+{
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "3a777755-ec92-4e7a-88b9-63a14910167e",
+  "label" : "About Us",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "8ffa78ed-cbf8-4143-a7f9-6b67ff9e8f25",
+          "columns" : [ {
+            "UUID" : "3fabc5aa-0c12-4201-90ef-1438ca83adbf",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "8ffa78ed-cbf8-4143-a7f9-6b67ff9e8f25",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "config" : {
+              "contentItemContentKey" : "MC3UHJ2ITO4JGYDO2NMC2XFCGCJA",
+              "layoutDefinition" : {
+                "attributes" : {
+                  "additionalLinks" : "{}",
+                  "backgroundPosition" : "center center",
+                  "backgroundSize" : "contain",
+                  "bannerAspectRatio" : "16:9",
+                  "bannerHeight" : 450,
+                  "bannerSubTitleTextColor" : "#ffffff",
+                  "bannerTitleTextColor" : "#ffffff",
+                  "callToActionButtonBackgroundColor" : "",
+                  "callToActionButtonBackgroundColorHover" : "",
+                  "callToActionButtonBorderColor" : "",
+                  "callToActionButtonBorderColorHover" : "",
+                  "callToActionButtonBorderStyles" : "",
+                  "callToActionButtonTextColor" : "",
+                  "callToActionButtonTextColorHover" : "",
+                  "callToActionLabel" : "View",
+                  "componentHoverEffect" : "none",
+                  "contentWidth" : 80,
+                  "dateFormat" : "none",
+                  "datetime" : "",
+                  "datetimeFontSize" : "regular",
+                  "datetimeTextColor" : "#ffffff",
+                  "datetimeTextDecoration" : "",
+                  "defaultLinksOverrides" : "{}",
+                  "displayDayOfWeek" : false,
+                  "eyebrowFontSize" : "regular",
+                  "eyebrowHighlightColor" : "",
+                  "eyebrowText" : "",
+                  "eyebrowTextColor" : "#ffffff",
+                  "eyebrowTextDecoration" : "",
+                  "flagAlignment" : "top left",
+                  "flagBackgroundColor" : "#ff0000",
+                  "flagBorderColor" : "#ffffff",
+                  "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+                  "flagRotation" : 0,
+                  "flagSpacing" : "medium",
+                  "flagText" : "",
+                  "flagTextColor" : "#ffffff",
+                  "flagTextDecoration" : "",
+                  "hideTextElementsForVideo" : false,
+                  "imageAltText" : "{!CurrentItem.thumbUrl}",
+                  "imageUrl" : "{!CurrentItem.thumbUrl}",
+                  "metadata1HighlightColor" : "",
+                  "metadata1Text" : "",
+                  "metadata2HighlightColor" : "",
+                  "metadata2Text" : "",
+                  "metadataFontSize" : "regular",
+                  "metadataTextColor" : "#ffffff",
+                  "metadataTextDecoration" : "",
+                  "overlayBackgroundColor" : "rgba(110, 110, 110, 0)",
+                  "showButton" : false,
+                  "showCaption" : true,
+                  "showDateTime" : true,
+                  "showEyebrow" : true,
+                  "showEyebrowHighlight" : false,
+                  "showFlag" : true,
+                  "showMetadata1" : true,
+                  "showMetadata1Highlight" : false,
+                  "showMetadata2" : true,
+                  "showMetadata2Highlight" : false,
+                  "showTitle" : true,
+                  "showTitleHighlight" : false,
+                  "subTitle" : "",
+                  "subTitleFontSize" : "regular",
+                  "textAlignment" : "center center",
+                  "timeFormat" : "none",
+                  "timeZoneDisplay" : "short",
+                  "timeZoneOptions" : "none",
+                  "title" : "",
+                  "titleFontSize" : "large",
+                  "titleHeadingTag" : "p",
+                  "titleHighlightColor" : "",
+                  "titleTextDecoration" : "",
+                  "useAspectRatio" : true,
+                  "videoUrl" : ""
+                },
+                "componentName" : "forceCommunity:bannerLayout"
+              },
+              "schemaVersion" : "V2.0"
+            }
+          },
+          "componentName" : "forceCommunity:managedContent",
+          "id" : "e7bca01e-46f3-404b-937e-487632d037c5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3fabc5aa-0c12-4201-90ef-1438ca83adbf",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "97844066-7a66-476f-bdf1-56cb9743c435",
+          "columns" : [ {
+            "UUID" : "a6ae4bb2-6a5a-468d-98b6-fc2fdb5a8464",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "97844066-7a66-476f-bdf1-56cb9743c435",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 48px;\">About us</span></p>\n<p style=\"text-align: justify;\"><strong style=\"font-size: 20px;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rise Together</strong><span style=\"font-size: 20px;\">&nbsp;is a Dedicated nonprofit organisation powered by the Salesforce NonProfit Success pack(NPSP) to serve our community with greater&nbsp;</span>&nbsp;&nbsp;<span style=\"font-size: 20px;\">efficiency and impact. Since our founding, we have been committed to making a difference in the lives of those we serve by leveraging cutting-edge technology to streamline our operations, engage donors, and support volunteers and manage programs effectively.</span></p>\n<p style=\"text-align: justify;\"><br></p>\n<p style=\"text-align: justify;\"><span style=\"font-size: 20px;\">At the heart of our mission is the belief that everyone deserves access to opportunities, resources, and support. Whether we are working on local initiatives, national outreach programs, or global partnerships, we remain focused on creating positive change and empowering communities.</span></p>\n<p style=\"text-align: justify;\"><span style=\"font-size: 20px;\">Our organization provides:</span></p>\n<p style=\"text-align: justify;\"><br></p>\n<ul>\n <li style=\"text-align: justify;\"><strong style=\"font-size: 20px;\">Volunteer Programs:</strong><span style=\"font-size: 20px;\">&nbsp;Engage in impactful community service by signing up for various volunteer opportunities via our online portal.</span></li>\n <li style=\"text-align: justify;\"><strong style=\"font-size: 20px;\">Donor Engagement:</strong><span style=\"font-size: 20px;\">&nbsp;Our donors are at the core of our mission, and through our donor management platform, we ensure that your contributions are efficiently tracked, acknowledged, and transparently used.</span></li>\n <li style=\"text-align: justify;\"><strong style=\"font-size: 20px;\">Community Services:</strong><span style=\"font-size: 20px;\">&nbsp;From education to healthcare, disaster relief, and environmental sustainability, we deliver a wide range of services to meet community needs.</span></li>\n</ul>\n<p style=\"text-align: justify;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.save_good_love.1}\"></p>\n<p style=\"text-align: justify;\"><br></p>\n<p style=\"text-align: justify;\"><span style=\"font-size: 20px;\">Our partnership with Salesforce NPSP enables us to manage these efforts with precision, offering real-time data tracking, personalized communication, and seamless integration of our programs. We take pride in building long-term relationships with our supporters, ensuring transparency and accountability at every step of our journey.</span></p>\n<p style=\"text-align: justify;\"><span style=\"font-size: 20px;\">Join us in our mission to transform lives and create a lasting impact. Whether you are a donor, volunteer, or community member, together we can build a brighter future.</span></p>\n<p style=\"text-align: justify;\"><br></p>\n<p style=\"text-align: justify;\"><strong style=\"font-size: 20px;\">Vision:</strong><span style=\"font-size: 20px;\">&nbsp;A world where everyone has the opportunity to thrive, empowered by community-driven solutions.</span></p>\n<p style=\"text-align: justify;\"><br></p>\n<p style=\"text-align: justify;\"><strong style=\"font-size: 20px;\">Mission:</strong><span style=\"font-size: 20px;\">&nbsp;To create meaningful change by connecting resources and volunteers with those who need them most, using innovative technologies and community-centric approaches.&nbsp;</span></p>\n<p style=\"text-align: justify;\"><br></p>\n<p style=\"text-align: justify;\">&nbsp;</p>\n<p style=\"text-align: justify;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "670dc5b4-7330-4dc7-8c1f-e46c848a09ae",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:footerCmp",
+          "id" : "73225615-15d6-443f-bad5-357ad0b7e0db",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a6ae4bb2-6a5a-468d-98b6-fc2fdb5a8464",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f56668a1-fdfc-4ec7-bc22-7097cc7f8849",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "About Us"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "d244348a-38fd-4211-9a68-2c0f2d3af89d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2891a7b5-5571-4318-b594-b4b3a57bc1ea",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-about-us"
+}

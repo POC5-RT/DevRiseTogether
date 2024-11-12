@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_status_reversion_to_Inactive</fullName>
+    <active>false</active>
+    <description>Ensure the volunteer status is not changed to inactive once it is active .</description>
+    <errorConditionFormula>AND(
+    ISCHANGED(Volunteer_Status__c ),
+    ISPICKVAL(Volunteer_Status__c, &quot;Inactive&quot;),
+    ISPICKVAL(Volunteer_Status__c, &quot;Approved&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Volunteer_Status__c</errorDisplayField>
+    <errorMessage>Volunteer status can not be changed to inactive once it is approved .</errorMessage>
+</ValidationRule>

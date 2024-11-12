@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skills__c</fullName>
+    <description>skills volunteers possess that can contribute to our volunteer efforts</description>
+    <inlineHelpText>Please select all applicable skills from the list. 
+This information helps us match you with suitable volunteer opportunities and roles within our organization</inlineHelpText>
+    <label>Skills</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Volunteer_Skills</valueSetName>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

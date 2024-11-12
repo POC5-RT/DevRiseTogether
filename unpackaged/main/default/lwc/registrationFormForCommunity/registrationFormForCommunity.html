@@ -1,0 +1,135 @@
+<template>
+    <lightning-card title="Community Member Registration" icon-name="custom:custom63">
+        <div class="slds-m-around_medium">
+            <lightning-record-edit-form
+                object-api-name="Community_Member__c"
+                onsuccess={handleSuccess}
+                onerror={handleError}
+                onsubmit={handleSubmit}>
+                <!-- Salutation -->
+               <lightning-combobox 
+                label="Salutation" 
+                name="salutation" 
+                value={salutation}
+                placeholder="Select Salutation" 
+                onchange={handleSalutationChange}
+                options={options}
+                required>
+               </lightning-combobox>
+                
+                <!-- First Name Field -->
+                <lightning-input 
+                label="First Name" 
+                name="firstName" 
+                value={firstName} 
+                onchange={handleFirstNameChange} 
+                required
+                message-when-value-missing="First Name is required."
+              ></lightning-input>
+               <!-- Last Name Field -->
+              <lightning-input 
+                label="Last Name" 
+                name="lastName" 
+                value={lastName} 
+                onchange={handleLastNameChange} 
+                required
+                message-when-value-missing="Last Name is required." 
+               ></lightning-input>
+               <!-- Gender -->
+               <lightning-combobox 
+                label="Gender" 
+                name="gender" 
+                value={gender}
+                placeholder="Select Gender" 
+                onchange={handleGenderChange}
+                options={genderoptions}
+                required>
+               </lightning-combobox>
+
+               <lightning-input 
+                 label="Email" 
+                 type="email" 
+                 name="email" 
+                 value={email} 
+                 onchange={handleEmailChange} 
+                 required
+                message-when-value-missing="Email is required."
+                message-when-pattern-mismatch="Please enter a valid email address." 
+                ></lightning-input>
+
+                <!-- DOB Field -->
+                <lightning-input 
+                label="Date of Birth" 
+                type="date" 
+                name="dob" 
+                value={dob} 
+                onchange={handleDobChange} 
+                required
+                message-when-value-missing="Date of Birth is required." 
+                ></lightning-input>
+               <template if:true={dobError}>
+                <div class="slds-text-color_error">Date of Birth cannot be in the future.</div>
+                </template>
+
+                
+                <!-- Phone Number Field -->
+               <lightning-input 
+               label="Phone Number" 
+               name="phoneNumber" 
+                value={phoneNumber} 
+                onchange={handlePhoneNumberChange} 
+                required 
+                message-when-value-missing="Phone is required.">
+                </lightning-input>
+
+                 <!-- Referred By Field -->
+                 <lightning-input 
+                label="Referred By" 
+                name="referredBy" 
+                value={referredBy} 
+                onchange={handleReferredByChange} 
+                 help-message="Mention who referred you and how did you come to know about us">
+                </lightning-input>
+
+                
+             <lightning-input-address
+                address-label="Address"
+                street-label="Street"
+                city-label="City"
+                country-label="Country"
+                province-label="State/ Province"
+                postal-code-label="Zip/ Postal Code"
+                country-options={getcountryOptions}
+                province-options={getProvinceOptions}
+                onchange={addressInputChange}
+                >
+              </lightning-input-address>
+
+
+                <!-- Submit Button -->
+                <div class="slds-m-around_medium">
+                    <lightning-button 
+                        variant="brand" 
+                        type="submit" 
+                        name="submit" 
+                        label="Submit"
+                        disabled={isSubmitDisabled}>
+                    </lightning-button>
+                </div>
+
+            </lightning-record-edit-form>
+        </div>
+
+        <!-- File upload section (visible only after successful record creation) -->
+        <template if:true={showFileUpload}>
+            <div class="slds-m-top_medium">
+                <lightning-file-upload
+                    record-id={recordId}
+                    label="Upload ID Proof"
+                    accept={acceptedFormats}
+                    onuploadfinished={handleUploadFinished}>
+                </lightning-file-upload>
+            </div>
+        </template>
+    </lightning-card>
+</template>

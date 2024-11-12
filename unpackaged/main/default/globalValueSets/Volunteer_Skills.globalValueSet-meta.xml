@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Communication</fullName>
+        <default>true</default>
+        <label>Communication</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Service</fullName>
+        <default>false</default>
+        <label>Customer Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Event Planning</fullName>
+        <default>false</default>
+        <label>Event Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>Fund Raising</fullName>
+        <default>false</default>
+        <label>Fund Raising</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+    </customValue>
+    <customValue>
+        <fullName>Social Media Management</fullName>
+        <default>false</default>
+        <label>Social Media Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Training and Development</fullName>
+        <default>false</default>
+        <label>Training and Development</label>
+    </customValue>
+    <masterLabel>Volunteer Skills</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

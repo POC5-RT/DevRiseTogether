@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Campaign Event Details" icon-name="standard:event">
+        <div class="slds-p-horizontal_medium">
+            <template if:true={campaign}>
+                <h2>{campaign.Name}</h2>
+                <p><strong>Description:</strong> {campaign.Description}</p>
+                <p><strong>Start Date:</strong> {formattedStartDate}</p>
+                <p><strong>End Date:</strong> {formattedEndDate}</p>
+                <p><strong>Status:</strong> {campaign.Status}</p>
+                <p><strong>Location:</strong> {campaign.Location}</p>
+                <p><strong>Budget:</strong> ${campaign.Budget}</p>
+            </template>
+            <template if:true={error}>
+                <p class="slds-text-color_error">{error}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

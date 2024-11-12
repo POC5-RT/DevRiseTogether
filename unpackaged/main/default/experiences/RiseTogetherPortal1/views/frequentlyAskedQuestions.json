@@ -1,0 +1,58 @@
+{
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "dataProviders" : [ ],
+  "id" : "a1a1697d-1971-4394-ac9f-ed554b46b0dd",
+  "label" : "frequently asked questions",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "Empower . Unite . Rise",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Rise Together",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "cfddbdf4-f115-496c-bdc3-6e0fb606c140",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "11ccae39-1c80-4e19-8b71-7b8cc073ab56",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "e406f8ef-fafd-4190-a216-b8e2ccc0b026",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "d3ac32a4-d7f1-4f8e-8675-53a6261f665e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "4247724e-7d61-40a8-b503-6e4fb257883e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "frequently asked questions"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5108cd88-d1e7-416d-8c3d-289ca67a162a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3ecbead7-0b0f-4c21-ac9a-4cb74ace9444",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-frequently-asked-questions"
+}

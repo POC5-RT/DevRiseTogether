@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>RiseTogether1</label>
+    <site>
+        <urlPathPrefix>RiseTogether</urlPathPrefix>
+    </site>
+    <space>site/RiseTogether12</space>
+</DigitalExperienceConfig>

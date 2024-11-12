@@ -1,0 +1,75 @@
+<template>
+    <template if:false={isLoggedIn}>
+        <!-- Login Form -->
+        <lightning-card title="Login">
+            <div class="slds-p-around_medium">
+                <lightning-input label="Username" value={username} onchange={handleUsernameChange}></lightning-input>
+                <lightning-input type="password" label="Password" value={password} onchange={handlePasswordChange}></lightning-input>
+
+                <div class="slds-p-top_medium">
+                    <lightning-button label="Login" onclick={handleLogin} class="slds-m-right_small"></lightning-button>
+                    <lightning-button label="Reset Password" variant="neutral" onclick={handleResetPassword}></lightning-button>
+                </div>
+
+                <div class="slds-p-top_medium">
+                    <a href="#" onclick={handleForgotPassword}>Forgot Password?</a>
+                </div>
+
+                <template if:true={errorMessage}>
+                    <div class="slds-text-color_error slds-m-top_medium">
+                        {errorMessage}
+                    </div>
+                </template>
+            </div>
+        </lightning-card>
+
+        <template if:true={isResetPassword}>
+            <!-- Reset Password Email Form -->
+            <lightning-card title="Reset Password">
+                <div class="slds-p-around_medium">
+                    <lightning-input label="Enter your email" value={email} onchange={handleEmailChange}></lightning-input>
+                    <lightning-button label="Submit" onclick={handleEmailSubmit} class="slds-m-top_medium"></lightning-button>
+                </div>
+            </lightning-card>
+        </template>
+    </template>
+
+    <template if:true={isLoggedIn}>
+        <!-- Display Campaigns -->
+        <lightning-card title="Campaigns" if:true={campaigns}>
+            <div class="slds-grid slds-wrap slds-gutters slds-m-around_medium">
+                <template if:true={isLoading}>
+                    <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+                </template>
+                <template if:true={error}>
+                    <div class="slds-text-color_error">{error}</div>
+                </template>
+                <template for:each={campaigns} for:item="campaign">
+                    <div key={campaign.Id} class="slds-col slds-size_1-of-3 slds-p-around_medium">
+                        <article class="slds-box slds-box_small campaign-box">
+                            <div class="slds-grid slds-wrap">
+                                <div>
+                                    <h2 class="slds-text-heading_medium slds-p-around_medium">{campaign.Name}</h2>
+                                    <p class="slds-text-body_small slds-p-around_medium">Total Tickets: {campaign.Total_Tickets__c}</p>
+                                    <p class="slds-text-body_small slds-p-around_medium">Booked Tickets: {campaign.Booked_Tickets__c}</p>
+                                    <p class="slds-text-body_small slds-p-around_medium">Remaining Tickets: {campaign.Remaining_Tickets__c}</p>
+                                    
+                                    <p class="slds-text-body_small slds-p-around_medium">Start Date: {campaign.StartDate}</p>
+                                    <p class="slds-text-body_small slds-p-around_medium">End Date: {campaign.EndDate}</p>
+                                    <p class="slds-text-body_small slds-p-around_medium">Description: {campaign.Description}</p>
+                                    <p class="slds-text-body_small slds-p-around_medium">Location: {campaign.Address__c}</p>
+                                </div>
+                                <lightning-button label="Book Ticket" onclick={handleBookTicket} data-id={campaign.Id}></lightning-button>
+                            </div>
+                        </article>
+                    </div>
+                </template>
+            </div>
+        </lightning-card>
+        <template if:true={isVolunteer}>
+        <lightning-card title="Jobs">
+            <a href="/RiseTogetherPortal/s/jobs">View Jobs</a>
+        </lightning-card>
+        </template>
+    </template>
+</template>

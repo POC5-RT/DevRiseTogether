@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Last_Name__c</field>
+        <field>Age__c</field>
+        <field>Email__c</field>
+        <field>Skills__c</field>
+        <field>Data_Privacy_and_Usage_Consent__c</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    
+    <description>To review and approve new Volunteer registrations.</description>
+    <emailTemplate>RiseTogetherApprovalTemplates/Volunteer_Approval_Request_Notification_1729258985340</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <finalApprovalActions>
+        <action>
+            <name>Approval_Status_to_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Sends_Volunteer_Approval_Notification</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Volunteer_Status_to_Active</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Approval_Status_to_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Sends_Volunteer_Rejection_Notification</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Volunteer Approval Process</label>
+    <processOrder>1</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

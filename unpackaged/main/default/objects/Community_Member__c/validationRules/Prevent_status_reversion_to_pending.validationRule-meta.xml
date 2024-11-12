@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_status_reversion_to_pending</fullName>
+    <active>true</active>
+    <description>Community Member  status can not be changed from either Approve or Rejected to Pending</description>
+    <errorConditionFormula>AND( ISCHANGED( Approval_Status__c ), ISPICKVAL( PRIORVALUE( Approval_Status__c ),&#39;Approved&#39; ),ISPICKVAL( Approval_Status__c ,&#39;Pending&#39;)) || 
+
+ AND
+
+(
+ISCHANGED( Approval_Status__c),
+ISPICKVAL( PRIORVALUE( Approval_Status__c ),&#39;Rejected&#39; ),
+ISPICKVAL( Approval_Status__c ,&#39;Pending&#39;)
+)</errorConditionFormula>
+    <errorDisplayField>Approval_Status__c</errorDisplayField>
+    <errorMessage>Approval status can not be changed to Pending Once it is Approved Or Rejected</errorMessage>
+</ValidationRule>

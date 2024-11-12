@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "d74f8b0f-f36c-41a0-9c82-b370c936d080",
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "configurationTags" : [ ],
+  "devName" : "Community_Event_List_Page__c",
+  "id" : "cfd136aa-3a4c-414a-a57d-86e5b1455de6",
+  "label" : "Community Event List Page",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-community-event-list-page",
+  "type" : "route",
+  "urlPrefix" : "community-event-list-page"
+}

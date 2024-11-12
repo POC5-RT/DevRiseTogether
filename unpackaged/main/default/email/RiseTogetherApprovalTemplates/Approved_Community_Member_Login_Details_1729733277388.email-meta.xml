@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sends login credentials to newly approved Community Members, welcoming them to the organization and providing their username and login link.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Approved Community Member - Login Details</name>
+    <pageDevName>Approved_Community_Member_Login_Details</pageDevName>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Welcome to our Community!</subject>
+    <textOnly>[Image alt text: RiseTogetherLogo] Dear {{{Recipient.Name}}},
+
+Welcome to our Community! Your account has been successfully created. You can now access your account and participate in our events and activities.
+
+Here are your login details:
+
+Username : {{{Recipient.Username__c}}}
+
+Password : {{{Recipient.Password__c}}}
+
+To login to Rise Together: Click Here &lt; https://ajsd-b-dev-ed.develop.my.site.com/RiseTogetherPortal &gt; 
+
+If you have any questions or need assistance, feel free to reach out.
+
+Warm Regards
+
+Rise Together Team
+
+RiseTogether &lt; https://ajsd-b-dev-ed.develop.my.site.com/RiseTogetherPortal &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

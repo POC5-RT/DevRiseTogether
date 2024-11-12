@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "a1a1697d-1971-4394-ac9f-ed554b46b0dd",
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "configurationTags" : [ ],
+  "devName" : "frequently_asked_questions__c",
+  "id" : "4d97926b-4f8c-45d8-b152-f5709fb43040",
+  "label" : "frequently asked questions",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-frequently-asked-questions",
+  "type" : "route",
+  "urlPrefix" : "frequently-asked-questions"
+}

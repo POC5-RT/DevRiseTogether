@@ -1,0 +1,11 @@
+.category-icon {
+    width: 50px; /* Adjust size as necessary */
+    height: 50px;
+    border-radius: 50%;
+}
+
+.category-image, .event-image {
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as per your needs */
+    height: auto;
+}

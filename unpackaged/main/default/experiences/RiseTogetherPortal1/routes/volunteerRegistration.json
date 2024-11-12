@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f9568644-3250-4d2a-96c6-83fda02d961a",
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "configurationTags" : [ ],
+  "devName" : "Volunteer_Registration__c",
+  "id" : "accee83a-6c7d-4236-9029-dfd2a18ce104",
+  "label" : "Volunteer Registration",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-volunteer-registration",
+  "type" : "route",
+  "urlPrefix" : "volunteer-registration"
+}

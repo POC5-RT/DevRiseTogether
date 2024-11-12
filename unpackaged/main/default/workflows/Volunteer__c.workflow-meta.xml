@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Send_Welcome_Email_to_Volunteers</fullName>
+        <description>Send Welcome Email to Volunteers</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>pocnpsp@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Rise_Together_Email_Templates/Welcome_Email_to_Volunteers</template>
+    </alerts>
+    <alerts>
+        <fullName>Sends_Volunteer_Approval_Notification</fullName>
+        <description>Sends Volunteer Approval Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>pocnpsp@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>RiseTogetherApprovalTemplates/Volunteer_Approval_Notification_1729260264819</template>
+    </alerts>
+    <alerts>
+        <fullName>Sends_Volunteer_Rejection_Notification</fullName>
+        <description>Sends Volunteer Rejection Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>pocnpsp@gmail.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>RiseTogetherApprovalTemplates/Volunteer_Rejection_Notification_1729260974376</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Approval_Status_to_Approved</fullName>
+        <description>Updates Approval Status Field to APPROVED</description>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approval Status to Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Status_to_Rejected</fullName>
+        <description>Update Approval status field  to Rejected</description>
+        <field>Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Approval Status to Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Volunteer_Status_to_Active</fullName>
+        <description>Updates Volunteer status field value to ACTIVE</description>
+        <field>Volunteer_Status__c</field>
+        <literalValue>Active</literalValue>
+        <name>Volunteer Status to Active</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

@@ -1,0 +1,160 @@
+{
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "dataProviders" : [ ],
+  "id" : "01b86102-3205-46f4-8b42-10ae87bfc941",
+  "label" : "Privacy Policy",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerText" : "Empower . Unite . Rise",
+        "bannerTextWithKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineArticles\">articles</a> and <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "bannerTextWithoutKnowledge" : "Explore other <a href=\"javascript:void(0)\" class=\"headlineDiscussions\">discussions</a> on this topic.",
+        "pageType" : "",
+        "showSubTopics" : true,
+        "title" : "Rise Together",
+        "uniqueNameOrId" : ""
+      },
+      "componentName" : "forceCommunity:headline",
+      "id" : "1141d093-75ea-47dc-a37f-2f41fc4df96d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ff1e06af-753e-4313-8793-7a04a17da105",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "config" : {
+          "contentItemContentKey" : "MCOYI2SKY33BDKDFSYU33EETGLTE",
+          "layoutDefinition" : {
+            "attributes" : {
+              "additionalLinks" : "{}",
+              "backgroundPosition" : "center center",
+              "backgroundSize" : "cover",
+              "bannerAspectRatio" : "16:9",
+              "bannerHeight" : 450,
+              "bannerSubTitleTextColor" : "#ffffff",
+              "bannerTitleTextColor" : "#ffffff",
+              "callToActionButtonBackgroundColor" : "",
+              "callToActionButtonBackgroundColorHover" : "",
+              "callToActionButtonBorderColor" : "",
+              "callToActionButtonBorderColorHover" : "",
+              "callToActionButtonBorderStyles" : "",
+              "callToActionButtonTextColor" : "",
+              "callToActionButtonTextColorHover" : "",
+              "callToActionLabel" : "View",
+              "componentHoverEffect" : "none",
+              "contentWidth" : 80,
+              "dateFormat" : "none",
+              "datetime" : "",
+              "datetimeFontSize" : "regular",
+              "datetimeTextColor" : "#ffffff",
+              "datetimeTextDecoration" : "",
+              "defaultLinksOverrides" : "{}",
+              "displayDayOfWeek" : false,
+              "eyebrowFontSize" : "regular",
+              "eyebrowHighlightColor" : "",
+              "eyebrowText" : "",
+              "eyebrowTextColor" : "#ffffff",
+              "eyebrowTextDecoration" : "",
+              "flagAlignment" : "top left",
+              "flagBackgroundColor" : "#ff0000",
+              "flagBorderColor" : "#ffffff",
+              "flagBorderStyles" : "{\"borderTopLeftRadius\":{\"value\":\"0\"},\"borderTopRightRadius\":{\"value\":\"0\"},\"borderBottomRightRadius\":{\"value\":\"0\"},\"borderBottomLeftRadius\":{\"value\":\"0\"}}",
+              "flagRotation" : 0,
+              "flagSpacing" : "medium",
+              "flagText" : "",
+              "flagTextColor" : "#ffffff",
+              "flagTextDecoration" : "",
+              "hideTextElementsForVideo" : false,
+              "imageAltText" : "",
+              "imageUrl" : "{!CurrentItem.source.url}",
+              "metadata1HighlightColor" : "",
+              "metadata1Text" : "",
+              "metadata2HighlightColor" : "",
+              "metadata2Text" : "",
+              "metadataFontSize" : "regular",
+              "metadataTextColor" : "#ffffff",
+              "metadataTextDecoration" : "",
+              "overlayBackgroundColor" : "rgba(255, 255, 255, 0)",
+              "showButton" : false,
+              "showCaption" : false,
+              "showDateTime" : true,
+              "showEyebrow" : false,
+              "showEyebrowHighlight" : false,
+              "showFlag" : false,
+              "showMetadata1" : true,
+              "showMetadata1Highlight" : false,
+              "showMetadata2" : true,
+              "showMetadata2Highlight" : false,
+              "showTitle" : false,
+              "showTitleHighlight" : false,
+              "subTitle" : "",
+              "subTitleFontSize" : "regular",
+              "textAlignment" : "center center",
+              "timeFormat" : "none",
+              "timeZoneDisplay" : "short",
+              "timeZoneOptions" : "none",
+              "title" : "",
+              "titleFontSize" : "large",
+              "titleHeadingTag" : "p",
+              "titleHighlightColor" : "",
+              "titleTextDecoration" : "",
+              "useAspectRatio" : false,
+              "videoUrl" : ""
+            },
+            "componentName" : "forceCommunity:bannerLayout"
+          },
+          "schemaVersion" : "V2.0"
+        }
+      },
+      "componentName" : "forceCommunity:managedContent",
+      "id" : "b9c1c45e-1f0f-471d-aa21-19673385d60f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "25c1f6cd-23f1-4bdd-81b4-40ff1cd387dc",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><strong style=\"font-size: 20px;\">Privacy Policy for Rise Together</strong></p><p><br></p><p>Effective Date: 07/10/2020</p><p><br></p><p>At&nbsp;<em>Rise Together</em>, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, engage with our services, or participate in our programs. By accessing or using our services, you agree to the collection and use of information in accordance with this policy.</p><h3>1.&nbsp;<strong>Information We Collect</strong></h3><p>We collect personal information you voluntarily provide to us when you:</p><ul><li>Sign up for newsletters or event notifications.</li><li>Register for volunteer opportunities, events, or programs.</li><li>Make a donation.</li><li>Contact us for support or information.</li><li>Participate in surveys or feedback.</li></ul><p>The personal information we may collect includes:</p><ul><li>Name</li><li>Email address</li><li>Phone number</li><li>Mailing address</li><li>Payment information (for donations)</li><li>Demographic information (age, gender, interests)</li></ul><h3>2.&nbsp;<strong>How We Use Your Information</strong></h3><p>We use the information we collect for the following purposes:</p><ul><li>To manage volunteer programs and event registration.</li><li>To send you communications, including newsletters, updates, and fundraising appeals.</li><li>To process and acknowledge donations.</li><li>To respond to your inquiries and provide customer support.</li><li>To improve our website, services, and outreach efforts.</li><li>To analyze participation and program impact.</li></ul><h3>3.&nbsp;<strong>Sharing Your Information</strong></h3><p>We do not sell, rent, or share your personal information with third parties, except in the following cases:</p><ul><li>To service providers who help us with payment processing, email marketing, or web hosting.</li><li>When required by law or legal process.</li><li>With your explicit consent.</li></ul><p>We ensure that any third-party service providers who have access to your personal information comply with this privacy policy and applicable data protection laws.</p><h3>4.&nbsp;<strong>Data Security</strong></h3><p>We implement reasonable and appropriate security measures to protect your information from unauthorized access, disclosure, alteration, and destruction. However, no method of data transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p><h3>5.&nbsp;<strong>Your Rights</strong></h3><p>You have the right to:</p><ul><li>Access, update, or delete the personal information we have about you.</li><li>Opt-out of receiving communications from us by following the unsubscribe link in our emails or contacting us directly.</li><li>Request a copy of the personal data we hold about you.</li><li>Withdraw consent for data processing where consent has been given.</li></ul><h3>6.&nbsp;<strong>Cookies and Tracking Technologies</strong></h3><p>We may use cookies and similar tracking technologies to enhance your browsing experience. You can control the use of cookies through your browser settings.</p><h3>7.&nbsp;<strong>Children’s Privacy</strong></h3><p>Our services are not directed toward individuals under the age of 13. We do not knowingly collect personal information from children. If we become aware that we have collected personal data from children without verification of parental consent, we will take steps to remove that information.</p><h3>8.&nbsp;<strong>Changes to This Privacy Policy</strong></h3><p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated \"Effective Date.\" We encourage you to review this policy periodically.</p><h3>9.&nbsp;<strong>Contact Us</strong></h3><p>If you have any questions or concerns about this Privacy Policy or how your data is handled, please contact us at:</p><p><strong>Rise Together</strong></p><p>Email: [Insert Email Address]</p><p>Phone: [Insert Phone Number]</p><p>Mailing Address: [Insert Mailing Address]</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "562694d0-342a-44bb-8611-10db7c8432f7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "be9a4648-fcd9-45b5-9fbe-ca94e7b1f980",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "774a0751-0dfb-42e3-9235-a9ff037b3632",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Privacy Policy"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f8029cce-7aa3-4b02-b4f3-6727fcb15d62",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "164128c8-0278-4800-bfa8-8d05105263e2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-privacy-policy"
+}

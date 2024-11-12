@@ -1,0 +1,100 @@
+<template>
+    <lightning-card title="Community Member Registration" icon-name="custom:custom63">
+        <div class="slds-m-around_medium">
+            <lightning-record-edit-form
+                object-api-name="Community_Member__c"
+                onsuccess={handleSuccess}
+                onsubmit={handleSubmit}>
+                <!-- Display messages -->
+                <lightning-messages></lightning-messages>
+
+                <!-- Salutation -->
+                <lightning-input-field field-name="Salutation__c"></lightning-input-field>
+                
+                <!-- First Name Field -->
+                <lightning-input-field field-name="First_Name__c"></lightning-input-field>
+                
+                <!-- Last Name Field -->
+                <lightning-input-field field-name="Last_Name__c"></lightning-input-field>
+                
+                <!-- Gender -->
+                <lightning-input-field field-name="Gender__c"></lightning-input-field>
+                
+                <!-- Email -->
+                <lightning-input-field field-name="Email__c"></lightning-input-field>
+
+                <!-- DOB Field -->
+                <lightning-input-field field-name="BirthDate__c"></lightning-input-field>
+                
+                <!-- Phone Number Field -->
+                <lightning-input-field field-name="Phone__c"></lightning-input-field>
+
+                <!-- Address Fields -->
+                <lightning-input-field field-name="Address__CountryCode__s"></lightning-input-field>
+                <lightning-input-field field-name="Address__Street__s"></lightning-input-field>
+                <lightning-input-field field-name="Address__City__s"></lightning-input-field>
+                <lightning-input-field field-name="Address__StateCode__s"></lightning-input-field>
+                <lightning-input-field field-name="Address__PostalCode__s"></lightning-input-field> 
+
+                <!-- Link to open modal -->
+                <a href="javascript:void(0);" onclick={openModal}>Click Here - To View/Accept Rise Together Terms and Conditions</a>
+                
+                <!-- Modal that opens when the link is clicked -->
+                <template if:true={isModalOpen}>
+                    <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+                        <div class="slds-modal__container">
+                            <header class="slds-modal__header">
+                                <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeModal}>
+                                    <lightning-icon icon-name="utility:close" alternative-text="close" size="small"></lightning-icon>
+                                    <span class="slds-assistive-text">Close</span>
+                                </button>
+                                <h2 class="slds-text-heading_medium">Guidelines and Policies</h2>
+                            </header>
+
+                            <div class="slds-modal__content slds-p-around_medium">
+                                <p>By becoming a community member of Rise Together, you agree to the following:</p>
+                                <ul>
+                                    <li>You will uphold the mission and values of our organization.</li>
+                                    <li>You will not sell, transfer, or otherwise distribute any grants or assistance provided by our organization.</li>
+                                    <li>You consent to receive communications from our organization.</li>
+                                    <li>Your membership is subject to approval.</li>
+                                </ul>
+                                <p>By agreeing, you acknowledge your commitment to these principles and responsibilities.</p>
+                                <lightning-input type="checkbox" label="I agree to the terms and conditions" checked={isChecked} onchange={handleCheckboxChange}></lightning-input>
+                            </div>
+
+                            <footer class="slds-modal__footer">
+                                <lightning-button variant="neutral" label="Cancel" onclick={closeModal}></lightning-button>
+                                <lightning-button variant="brand" label="Accept" onclick={handleAgree} disabled={isAgreeDisabled}></lightning-button>
+                            </footer>
+                        </div>
+                    </section>
+                    <div class="slds-backdrop slds-backdrop_open"></div>
+                </template>
+
+                <!-- Submit Button -->
+                <div class="slds-m-around_medium">
+                    <lightning-button 
+                        variant="brand" 
+                        type="submit" 
+                        name="submit" 
+                        label="Submit"
+                        disabled={isSubmitDisabled}>
+                    </lightning-button>
+                </div>
+            </lightning-record-edit-form>
+        </div>
+
+        <!-- File upload section (visible only after successful record creation) -->
+        <template if:true={showFileUpload}>
+            <div class="slds-m-top_medium">
+                <lightning-file-upload
+                    record-id={recordId}
+                    label="You can Upload ID Proof"
+                    accept={acceptedFormats}
+                    onuploadfinished={handleUploadFinished}>
+                </lightning-file-upload>
+            </div>
+        </template>
+    </lightning-card>
+</template>

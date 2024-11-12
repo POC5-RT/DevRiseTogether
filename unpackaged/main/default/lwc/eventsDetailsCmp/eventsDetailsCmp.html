@@ -1,0 +1,32 @@
+<template>
+    <lightning-card>
+        <div slot="title" class="slds-media">
+            <!-- Check if the category image is available -->
+            <!-- <template if:true={categoryImage}>
+                <div class="slds-media__figure">
+                    <img src={categoryImage} alt="Event Category Image" class="category-icon" />
+                </div>
+            </template> -->
+            <div class="slds-media__body">
+                <h2>Event Details</h2>
+            </div>
+        </div>
+        <template if:true={event}>
+            <h2>{event.fields.Name.value}</h2>
+            <p>Date: {event.fields.Event_Date__c.value}</p>
+            <p>Description: {event.fields.Event_Description__c.value}</p>
+
+         <!-- Loop through and display base64 images from attachments -->
+            <template if:true={base64Images}>
+                <template for:each={base64Images} for:item="image">
+                    <img key={image.Id} src={image} alt="Event Image" class="event-image" />
+                </template>
+            </template>
+        </template>
+
+        <!-- Error handling -->
+        <template if:true={error}>
+            <p>Error: {error.message}</p>
+        </template>
+    </lightning-card>
+</template>

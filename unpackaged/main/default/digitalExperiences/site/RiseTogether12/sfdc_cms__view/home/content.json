@@ -1,0 +1,283 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"9c59fe19-38c2-4e0e-b30a-c1a974c5fdf0\",\"columns\":[{\"UUID\":\"d01fef58-42d3-40dd-90e5-2d49d64163f0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"10\",\"seedComponents\":null},{\"UUID\":\"7b08cd60-ee8e-4cf8-9b6f-bb9c9b101ee9\",\"columnName\":\"Column 2\",\"columnKey\":\"786be\",\"columnWidth\":\"2\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "activeTabBackgroundColor" : "rgb(177, 233, 142)",
+                "activeTabBorderHighlightColor" : "rgb(43, 14, 128)",
+                "activeTabBorderHighlightWeight" : "2px",
+                "activeTabTextEmphasis" : "{\"bold\":true,\"italic\":true,\"strike\":false,\"underline\":true}",
+                "activeTabTextStyle" : "{\"textStyle\":\"paragraph1\",\"headingTag\":\"p\"}",
+                "backgroundColor" : "rgb(251, 255, 255)",
+                "borderColor" : "rgb(44, 33, 33)",
+                "borderRadius" : "0px",
+                "borderWeight" : "",
+                "enableOverflowMenu" : true,
+                "imageFit" : "contain",
+                "imagePosition" : "center center",
+                "overflowIconColor" : "rgb(61, 30, 203)",
+                "overflowIconStyle" : "down-arrow",
+                "overflowMenuLabel" : "More",
+                "tabAlignment" : "center",
+                "tabBorderColor" : "",
+                "tabBorderRadius" : "0px",
+                "tabBorderWeight" : "0px",
+                "tabHoverBackgroundColor" : "rgb(232, 236, 89)",
+                "tabHoverBorderHighlightWeight" : "1px",
+                "tabHoverTextEmphasis" : "{\"bold\":true,\"italic\":true}",
+                "tabLayout" : "horizontal",
+                "tabPadding" : "12.00px",
+                "tabTextAlignment" : "center",
+                "tabTextColor" : "rgb(171, 36, 12)",
+                "tabTextEmphasis" : "{\"bold\":true}",
+                "tabTextStyle" : "{\"textStyle\":\"heading-medium\",\"headingTag\":\"p\"}",
+                "tabsetConfig" : "{\"UUID\":\"9f7c6a40-4258-4cc9-80e4-bfb27bef8e5d\",\"activeTab\":null,\"useOverflowMenu\":null,\"tabs\":[{\"UUID\":\"30ada8e6-eba2-40cd-8dc9-dfa3f4d13ff8\",\"tabName\":\"About US\",\"tabKey\":\"tab1\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"6ba9f197-5472-4d7f-83ce-c563b483ee18\",\"tabName\":\"Introduction\",\"tabKey\":\"tab2\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"35753969-fbfc-4f6b-91d5-f440d5f3aa70\",\"tabName\":\"Our mission\",\"tabKey\":\"ef25d\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"100a1d0c-808f-42e1-9cd2-e1ab33b8cb83\",\"tabName\":\"Meet Our Volunteers/Team\",\"tabKey\":\"7c07c\",\"locked\":false,\"allowGuestUser\":false},{\"UUID\":\"b20c36a3-904d-4bb2-9145-404a6d02115a\",\"tabName\":\"Join US\",\"tabKey\":\"f6dc0\",\"locked\":false,\"allowGuestUser\":false}]}",
+                "width" : "100%"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<blockquote><p class=\"ql-quote-block\"><strong style=\"font-size: 18px; color: rgb(0, 138, 0);\">The story of Rise Together began in [year of founding], when a small group of neighbors saw the growing needs of their community. [Founder’s Name], our founder, noticed that many people were facing hardships—struggling with [specific challenge, such as homelessness, lack of education, food insecurity, etc.]</strong></p><p class=\"ql-quote-block\"><br></p><p class=\"ql-quote-block\"><strong style=\"font-size: 18px; color: rgb(0, 138, 0);\">and realized that if we stood together, we could be stronger. What started as a neighborhood effort to [first action, e.g., deliver meals to families or tutor local children] has grown into a wide-reaching movement powered by volunteers from all walks of life.</strong></p><p class=\"ql-quote-block\"><br></p><p class=\"ql-quote-block\"><strong style=\"font-size: 18px; color: rgb(0, 138, 0);\">Our journey has shown us that real change happens when people rise up to help one another. Today, Rise Together unites volunteers who are passionate about [specific mission], providing hope, support, and resources to those who need it most.</strong></p></blockquote>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "068d91fb-d765-4546-b976-7db7bc8c802f",
+                  "type" : "component"
+                } ],
+                "id" : "30ada8e6-eba2-40cd-8dc9-dfa3f4d13ff8",
+                "name" : "tab1",
+                "title" : "About US",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><strong style=\"color: rgb(0, 138, 0); font-size: 18px;\">Welcome to Rise Together, where we believe in the power of community and collective action. Our nonprofit is built on the simple yet profound belief that when people come together, we can overcome any challenge. </strong></p><p><strong style=\"color: rgb(0, 138, 0); font-size: 18px;\">At Rise Together, we work hand-in-hand with passionate volunteers to create meaningful change in the lives of individuals and communities in need. Whether it’s helping to [state a few specific causes, such as support underserved families, provide education, or protect the environment], </strong></p><p><strong style=\"color: rgb(0, 138, 0); font-size: 18px;\">we know that together, we rise content of your own.</strong></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "005f42c0-9207-4d7a-988e-046725237df4",
+                  "type" : "component"
+                } ],
+                "id" : "6ba9f197-5472-4d7f-83ce-c563b483ee18",
+                "name" : "tab2",
+                "title" : "Introduction",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><strong style=\"font-size: 18px; color: rgb(0, 138, 0);\">Our mission at Rise Together is to empower communities and individuals by harnessing the strength of collective volunteerism. We believe that every person has the ability to make a difference, and through our programs, we aim to [specific action, such as improve quality of life, offer educational resources, or provide basic needs] for underserved populations. Together, we are creating a world where no one is left behind, and where every person is given the opportunity to thrive.﻿</strong></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "de628fbe-cfd3-465c-830c-989b58da1f1d",
+                  "type" : "component"
+                } ],
+                "id" : "35753969-fbfc-4f6b-91d5-f440d5f3aa70",
+                "name" : "ef25d",
+                "title" : "Our mission",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><strong style=\"font-size: 18px; color: rgb(0, 138, 0);\">The heart of Rise Together is our incredible volunteers. From individuals who give a few hours a month to those who dedicate their careers to service, each person plays a crucial role in our mission. Meet some of our amazing volunteers:</strong></p><ul><li><strong style=\"font-size: 18px; color: rgb(0, 138, 0);\">[Volunteer Name], who [describe their role or experience].</strong></li><li><strong style=\"font-size: 18px; color: rgb(0, 138, 0);\">[Volunteer Name], who has been involved in [specific program or contribution].</strong></li><li><strong style=\"font-size: 18px; color: rgb(0, 138, 0);\">[Volunteer Name], [brief story or quote about their experience].</strong></li></ul>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "9755aa4f-8181-4654-ad30-e041062330d7",
+                  "type" : "component"
+                } ],
+                "id" : "100a1d0c-808f-42e1-9cd2-e1ab33b8cb83",
+                "name" : "7c07c",
+                "title" : "Meet Our Volunteers/Team",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "richTextValue" : "<p><strong style=\"color: rgb(0, 138, 0); font-size: 18px;\">ReplaWe believe that anyone can make a difference. Whether you want to volunteer, donate, or simply spread the word, Rise Together offers opportunities for everyone to get involved. Together, we can rise to meet the challenges our communities face and build a brighter future for all. Join us today to be part of the movement!</strong></p><p><strong style=\"color: rgb(0, 138, 0); font-size: 18px;\">How to Get Involved:</strong></p><ul><li><strong style=\"color: rgb(0, 138, 0); font-size: 18px;\">Volunteer: Discover opportunities to contribute your time and skills.</strong></li><li><strong style=\"color: rgb(0, 138, 0); font-size: 18px;\">Donate: Help us fund programs that change lives.</strong></li><li><strong style=\"color: rgb(0, 138, 0); font-size: 18px;\">Partner: Work with us to expand our reach and impact.</strong></li></ul>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "6e2e6289-c50d-43a3-bb9a-2fbe554c63f8",
+                  "type" : "component"
+                } ],
+                "id" : "b20c36a3-904d-4bb2-9145-404a6d02115a",
+                "name" : "f6dc0",
+                "title" : "Join US",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:tabs",
+              "id" : "9f7c6a40-4258-4cc9-80e4-bfb27bef8e5d",
+              "type" : "component"
+            } ],
+            "id" : "d01fef58-42d3-40dd-90e5-2d49d64163f0",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "bannerAlignment" : "center",
+                "bannerLinkAssistiveText" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 50,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 50,
+                "contentPadding" : "none",
+                "contentPosition" : "center center",
+                "contentWidth" : 50,
+                "height" : 450,
+                "imageFit" : "cover",
+                "imageInfo" : "",
+                "imagePosition" : "center center",
+                "isBannerLink" : false,
+                "overlayColor" : "",
+                "showButtons" : true,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your headline goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h1\", \"textStyle\": \"heading-large\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "c2146aa3-3cf6-4598-a3d6-19de5e56048a",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "backgroundColor" : "",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Your subheader goes here",
+                    "textAlign" : "center",
+                    "textDecoration" : "{}",
+                    "textDisplayInfo" : "{\"headingTag\": \"h3\", \"textStyle\": \"heading-medium\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "be3641d6-3b03-4892-a947-8c982e82134b",
+                  "type" : "component"
+                } ],
+                "id" : "afbc4681-1245-4e38-af67-2e413c09bbe6",
+                "name" : "contentRegion",
+                "title" : "contentRegion",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "67fa174b-6d86-4a60-b998-ff35bd99719d",
+                  "type" : "component"
+                } ],
+                "id" : "82de7f42-2b51-4408-a71d-f154dfe8f9d1",
+                "name" : "bannerPrimaryButton",
+                "title" : "bannerPrimaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "fb9781e6-eb17-4be7-a729-ae65617517a0",
+                  "type" : "component"
+                } ],
+                "id" : "c2afefd4-9f5c-4258-ba11-0084fc8c6c22",
+                "name" : "bannerSecondaryButton",
+                "title" : "bannerSecondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "4caf88ea-a800-4acd-bd82-38ff988f9a26",
+                  "type" : "component"
+                } ],
+                "id" : "626223fe-7055-4ed7-8278-a5005262cd5c",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:banner",
+              "id" : "99881d25-582d-49ab-bde0-86e745e34990",
+              "type" : "component"
+            } ],
+            "id" : "7b08cd60-ee8e-4cf8-9b6f-bb9c9b101ee9",
+            "name" : "786be",
+            "title" : "Column 2",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "9c59fe19-38c2-4e0e-b30a-c1a974c5fdf0",
+          "type" : "component"
+        } ],
+        "id" : "b5caca8d-ed80-4c90-a13b-83a171da0ec8",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "9e5968e6-cce7-46ce-af0c-783d1542f687",
+          "type" : "component"
+        } ],
+        "id" : "c11b8ccd-3d39-4cab-83e9-b752c0749ce6",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "5364b79a-3d69-4089-a2fc-6aa4b5b2cf87",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

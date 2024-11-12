@@ -1,0 +1,27 @@
+:host {
+    display: block;              /* Ensure the component behaves as a block element */
+    max-width: 500px;          /* Set a maximum width for the component */
+    margin: 0 auto;            /* Center the component horizontally */
+    padding: 20px;             /* Add some padding inside the component */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
+    border-radius: 8px;        /* Optional: round the corners */
+    background-color: white;   /* Optional: set a background color */
+}
+
+.lightning-card {
+    padding: 20px;             /* Add padding around the card */
+}
+
+.slds-m-top_medium {
+    margin-top: 15px;          /* Adjust the top margin of the submit button */
+}
+lightning-input {
+    z-index: 1000;
+}
+lightning-input {
+    display: block !important;
+    visibility: visible !important;
+}
+buttonSubmit{
+    align-content: center;
+}

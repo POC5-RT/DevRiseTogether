@@ -1,0 +1,54 @@
+{
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "componentName" : "siteforce:sldsThreeCol363Layout",
+  "dataProviders" : [ ],
+  "id" : "518b37c5-96e9-4360-b6e1-022455f45be2",
+  "label" : "Jobs",
+  "regions" : [ {
+    "id" : "17c29d35-f800-4003-aa14-faf801b5d847",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "ac564812-70b4-4ee7-8c4d-fb98769187e8",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:volunteerJobs",
+      "id" : "0798772e-fd3c-4126-a0a9-3574d1c591e4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d394f234-b5c1-4e0c-8a5f-ded84800952b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e73b1686-8f35-4872-b773-a4e3e3c168ab",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  }, {
+    "id" : "01b43d26-ebb0-4e39-9109-83f04d232704",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Jobs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "59d849dc-ef17-4c66-9c38-e4a48ca03256",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d7b162f9-49ea-440a-9009-d9a4bc2aa549",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-jobs"
+}

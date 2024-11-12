@@ -1,0 +1,71 @@
+.footer a{
+    background-color:#384B59;
+    text-align:center;
+    float:right;
+    color:white;
+    white-space: normal;
+    padding:10px 10px;
+    text-decoration: none;
+ }
+  .background a{
+    background-color: #384B59;
+   
+     }
+.copyrights{
+    
+    color: white;
+    background-color: #384B59;
+    white-space: normal;
+    padding:2px 0px 20px 0px;
+    text-decoration: none;
+
+}
+.para{
+    text-align: right;
+}
+ 
+.bg{
+    background-color: #384B59;
+}
+
+/*--CSS Media Queries---*/
+
+@media only screen and (min-width: 600px)
+{
+	.pad{
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+}
+@media only screen and (min-width: 768px)
+{
+	.pad{
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+}
+@media only screen and (min-width: 992px)
+{
+	.pad{
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+}
+@media only screen and (min-width: 1200px)
+{
+	.pad{
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+}
+@media only screen and (min-width: 1500px)
+{
+	.pad{
+	padding-left: 10%;
+	padding-right: 10%;
+	}
+}
+.linecode {
+    background: linear-gradient(90deg, #744F0D 0%, #99693E 17.19%, #EFDBA1 58.85%, #744F0D 100%),
+ linear-gradient(90deg, color(display-p3 0.435 0.318 0.114) 0%, color(display-p3 0.573 0.420 0.271) 17.19%, color(display-p3 0.925 0.863 0.659) 58.85%, color(display-p3 0.435 0.318 0.114) 100%);
+}

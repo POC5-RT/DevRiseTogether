@@ -1,0 +1,37 @@
+<template>
+    <lightning-card title="Events List">
+        
+
+        <!-- Error handling -->
+        <template if:true={error}>
+            <p>Error: {error.message}</p>
+        </template>
+
+        <!-- Display list of events if available -->
+        <template if:true={events}>
+            <ul class="slds-list_dotted">
+                <template for:each={events} for:item="event">
+                    <li key={event.Id} class="slds-item">
+                        <!-- Display the category icon for each event -->
+                        <div class="slds-media slds-m-around_medium">
+                            <template if:true={event.categoryIcon}>
+                                <!-- <div class="slds-media__figure">
+                                    <img src={event.categoryIcon} alt="Category Icon" class="category-icon" />
+                                </div> -->
+                            </template>
+
+                            <!-- Event details -->
+                            <div class="slds-media__body">
+                                <h3>{event.Event_Name__c}</h3>
+                                <p>Date: {event.Event_Date__c}</p>
+                                <p>Category: {event.Event_Category__c}</p>
+                                <p>{event.Event_Description__c}</p>
+                                <button class="slds-button slds-button_brand" data-id={event.Id} onclick={handleDetails}>View Details</button>
+                            </div>
+                        </div>
+                    </li>
+                </template>
+            </ul>
+        </template>
+    </lightning-card>
+</template>

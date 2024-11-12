@@ -1,0 +1,44 @@
+<template>
+    <lightning-card title="Track Volunteer Status" icon-name="custom:custom88"> 
+        <div class="slds-p-around_medium">
+            <lightning-input 
+                label="Enter Email to Track Volunteer Status" 
+                value={email} 
+                onchange={handleEmailChange} 
+                placeholder="Enter volunteer's email ID">
+            </lightning-input>
+
+            <div class="slds-m-top_medium">
+                <lightning-button 
+                    label="Display Volunteer Status" 
+                    variant="brand" 
+                    onclick={handleSearch}>
+                </lightning-button>
+            </div>
+
+            <!-- If volunteer record is fetched -->
+            <template if:true={volunteerRecord}>
+                <div class="slds-box slds-m-top_large">
+                    <p class="slds-m-bottom_medium"><strong>First Name :  </strong> {volunteerRecord.First_Name__c}</p>
+                    <p class="slds-m-bottom_medium"><strong>Last Name :  </strong> {volunteerRecord.Last_Name__c}</p>
+                    <p class="slds-m-bottom_medium"><strong>Volunteer Status :  </strong> {volunteerRecord.Volunteer_Status__c}</p>
+                    <p class="slds-m-bottom_medium">
+                        <strong>Approval Status :  </strong> 
+                        <span class={approvalStatusClass}>{volunteerRecord.Approval_Status__c}</span>
+                    </p>
+                    <p class="slds-m-bottom_medium">
+                        <strong>Approver Comments : </strong>
+                        <span>{approverComments}</span>
+                    </p>
+                </div>
+            </template>
+
+            <!-- If no volunteer record found -->
+            <template if:true={error}>
+                <div class="slds-box slds-m-top_large slds-text-color_error">
+                    <p>{error}</p>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

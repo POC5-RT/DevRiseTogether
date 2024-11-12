@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To notify the approver that a community member registration is pending their approval</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Community Member Approval Request Notification</name>
+    <pageDevName>Community_Member_Approval_Request_Notification</pageDevName>
+    <relatedEntityType>Community_Member__c</relatedEntityType>
+    <style>none</style>
+    <subject>Approval Required: New Community Member</subject>
+    <textOnly>[Image alt text: RiseTogetherLogo]  &lt; https://ajsd-b-dev-ed.develop.my.site.com/RiseTogetherPortal &gt; Hello ,
+
+A new Community Member Registration is pending your approval. Please review the application at your earliest convenience.
+
+Here are the details of Registration:
+
+Submitted by : {{{Community_Member__c.OwnerFullName}}}
+
+Created on : {{{Community_Member__c.CreatedDate}}}
+
+Best Regards
+
+Rise Together
+
+RiseTogether &lt; https://ajsd-b-dev-ed.develop.my.site.com/Risetogethermain &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

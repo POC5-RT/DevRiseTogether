@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>To notify community members that their registration has been declined</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Community Member Rejection Notification</name>
+    <pageDevName>Community_Member_Rejection_Notification</pageDevName>
+    <relatedEntityType>Community_Member__c</relatedEntityType>
+    <style>none</style>
+    <subject>Community Member Registration - Rejected</subject>
+    <textOnly>[Image alt text: RiseTogetherLogo]  &lt; https://ajsd-b-dev-ed.develop.my.site.com/RiseTogetherPortal &gt; Hello {{{Community_Member__c.Last_Name__c}}},
+
+Thank you for your interest in joining Rise Together.
+
+After reviewing your registration, we regret to inform you that your application has {{{Community_Member__c.Approval_Status__c}}}at this time due to missing documentation or not meeting our eligibility criteria.
+
+If you believe this is an oversight or would like to provide the necessary documentation, please contact us for assistance.
+
+We appreciate your understanding and encourage you to reapply once all requirements are met.
+
+Best regards,
+
+Rise Together
+
+RiseTogether &lt; https://ajsd-b-dev-ed.develop.my.site.com/RiseTogetherPortalhttps:// &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,19 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <div class="container">
+   <div class="header"><img alt="mainLogo" src="{[devName:mainLogo]}" style="max-width: 972.5921874999999px" title="mainLogo" /><br /> <br /> <br /> Hello {{{Volunteer__c.First_Name__c}}},
+   </div>
+   <div class="content">
+    <p>A new Volunteer Registration is pending your approval. Please review the application at your earliest convenience.</p>
+    <p>Here are the details of the registration:</p>
+    <p><strong>Submitted by:</strong>&nbsp;{{{Volunteer__c.First_Name__c}}}<br /> <strong>Created on</strong>&nbsp; <strong>&nbsp; :</strong> {{{Volunteer__c.CreatedDate}}}</p>
+   </div>
+   <div class="footer">
+    Best Regards,<br /> Rise Together
+   </div>
+  </div>
+ </body>
+</html>

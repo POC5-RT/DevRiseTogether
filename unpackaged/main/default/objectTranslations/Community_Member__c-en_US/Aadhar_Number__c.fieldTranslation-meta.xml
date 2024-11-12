@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter your 12-digit Aadhar number without spaces or special characters --></help>
+        <label><!-- Aadhar Number --></label>
+        <name>Aadhar_Number__c</name>
+    </CustomFieldTranslation>

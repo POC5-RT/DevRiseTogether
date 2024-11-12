@@ -1,0 +1,46 @@
+<template>
+    <lightning-card title="Track Community Member Status" icon-name="custom:custom63">
+        <div class="slds-p-around_medium">
+            <lightning-input 
+                label="Enter Email to Track Member Status" 
+                value={email} 
+                onchange={handleEmailChange} 
+                placeholder="Enter member's email ID">
+            </lightning-input>
+
+            <div class="slds-m-top_medium">
+                <lightning-button 
+                    label="Display Member Status" 
+                    variant="brand" 
+                    onclick={handleSearch}>
+                </lightning-button>
+            </div>
+
+            <!-- If member record is fetched -->
+            <template if:true={memberRecord}>
+              <div class="slds-box slds-m-top_large">
+                    <p class="slds-m-bottom_medium"><strong>First Name :  </strong> {memberRecord.First_Name__c}</p>
+                    <p class="slds-m-bottom_medium"><strong>Last Name :  </strong> {memberRecord.Last_Name__c}</p>
+                    <p class="slds-m-bottom_medium"><strong>Member Status :  </strong> {memberRecord.Member_Status__c}</p>
+                    <p class="slds-m-bottom_medium">
+                        <strong>Approval Status :  </strong> 
+                        <span class={approvalStatusClass}>{memberRecord.Approval_Status__c}</span>
+                    </p>
+                    <p class="slds-m-bottom_medium">
+                        <strong>Approver Comments : </strong>
+                        <span>{approverComments}</span> <!-- Display comments or 'Nil' -->
+                    </p>
+                   
+              </div>
+                
+            </template>
+
+            <!-- If no member record found -->
+            <template if:true={error}>
+                <div class="slds-box slds-m-top_large slds-text-color_error">
+                    <p>{error}</p>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

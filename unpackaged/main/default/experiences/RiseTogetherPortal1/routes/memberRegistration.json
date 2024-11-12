@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "91f7529b-144d-43e2-ac05-c743288f4d2a",
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "configurationTags" : [ ],
+  "devName" : "Member_Registration__c",
+  "id" : "daa7033e-0deb-4851-a5f5-6026f0991864",
+  "label" : "Member Registration",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-member-registration",
+  "type" : "route",
+  "urlPrefix" : "member-registration"
+}

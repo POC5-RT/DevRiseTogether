@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aadhar_must_be_12_digits</fullName>
+    <active>false</active>
+    <description>Ensures the Aadhar number entered by users contains 12 digits without spaces or Special characters.</description>
+    <errorConditionFormula>NOT(REGEX( Aadhar_Number__c , &#39;^[0-9]{12}$&#39;))</errorConditionFormula>
+    <errorDisplayField>Aadhar_Number__c</errorDisplayField>
+    <errorMessage>Aadhar number must be exactly 12 digits and contain only numbers</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rule_for_FirstName</fullName>
+    <active>true</active>
+    <description>Field must not contain special characters or numbers</description>
+    <errorConditionFormula>NOT(REGEX( First_Name__c , &quot;^[a-zA-Z ]*$&quot;))</errorConditionFormula>
+    <errorDisplayField>First_Name__c</errorDisplayField>
+    <errorMessage>Should  not contain special characters or numbers</errorMessage>
+</ValidationRule>

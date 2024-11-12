@@ -1,0 +1,25 @@
+.status-approved {
+    color: green;
+    font-weight: bold;
+}
+
+.status-rejected {
+    color: red;
+    font-weight: bold;
+}
+
+.status-pending {
+    color: orange; /* Yellow was too light, using orange for better visibility */
+    font-weight: bold;
+}
+
+.slds-box {
+    border: 1px solid #dddbda;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background-color: #f4f6f9;
+}
+
+.slds-text-color_error {
+    color: red;
+}

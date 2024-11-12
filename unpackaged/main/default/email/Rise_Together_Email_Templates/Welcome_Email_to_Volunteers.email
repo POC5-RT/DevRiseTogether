@@ -1,0 +1,18 @@
+Hello {!Volunteer__c.Last_Name__c},
+
+Welcome!! and thank you for Signing up to make a difference as a volunteer!
+
+Here are your registration details :
+Member ID: {!Volunteer__c.Name}
+
+
+
+Your record is currently {!Volunteer__c.Approval_Status__c} approval, and your membership is {!Volunteer__c.Volunteer_Status__c}.
+Once approved and activated you will be notified.
+ 
+We look forward to having you involved in our upcoming events and initiatives.
+
+For any questions, please don’t hesitate to contact us.
+
+Warm regards,  
+RiseTogether Team.

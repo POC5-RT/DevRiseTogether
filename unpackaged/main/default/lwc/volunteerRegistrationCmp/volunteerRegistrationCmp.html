@@ -1,0 +1,98 @@
+<template>
+    <lightning-card title="Volunteer Registration">
+        <div class="form-content">
+            <!-- Record edit form for the Volunteer object -->
+            <lightning-record-edit-form object-api-name="Volunteer__c" onsuccess={handleSuccess} record-id={recordId}>
+                <lightning-messages></lightning-messages>
+
+                <!-- Basic fields for volunteer -->
+                <lightning-input-field field-name="Salutation__c"></lightning-input-field>
+                <lightning-input-field field-name="First_Name__c"></lightning-input-field>
+                <lightning-input-field field-name="Last_Name__c"></lightning-input-field>
+                <lightning-input-field field-name="Email__c"></lightning-input-field>
+                <lightning-input-field field-name="Phone__c"></lightning-input-field>
+                <lightning-input-field field-name="Birth_Date__c" onchange={handleBirthDateChange}></lightning-input-field>
+                <lightning-input-field field-name="Guardian_Name__c"></lightning-input-field>
+                <lightning-input-field field-name="Guardian_Email__c"></lightning-input-field>
+                <lightning-input-field field-name="Availability_Days__c"></lightning-input-field>
+                <lightning-input-field field-name="Skills__c"></lightning-input-field>
+                <lightning-input-field field-name="Address__CountryCode__s"></lightning-input-field>
+                <lightning-input-field field-name="Address__Street__s"></lightning-input-field>
+                <lightning-input-field field-name="Address__City__s"></lightning-input-field>
+                <lightning-input-field field-name="Address__StateCode__s"></lightning-input-field>
+                <lightning-input-field field-name="Address__PostalCode__s"></lightning-input-field>
+
+                <!-- File upload component for document upload during form submission -->
+                <lightning-file-upload
+                    label="Upload Supporting Document"
+                    record-id={recordId}
+                    accept=".pdf,.doc,.docx,.txt,.jpeg ,.png "
+                    multiple
+                    disabled={disableFileUpload}
+                    onuploadfinished={handleUploadFinished}>
+                </lightning-file-upload>
+
+                <!-- Conditionally render Consent Form if age < 18 -->
+                <template if:true={isUnder18}>
+                    <lightning-file-upload
+                        label="Upload Guardian Consent Form (if Volunteer age is less than 18)"
+                        record-id={recordId}
+                        accept=".pdf,.doc,.docx,.txt,.jpeg,.png"
+                        multiple
+                        disabled={disableFileUpload}
+                        onuploadfinished={handleConsentUploadFinished}>
+                    </lightning-file-upload>
+                </template>
+
+                <!-- Checkbox for agreeing to terms and conditions -->
+                <div class="slds-m-top_medium">
+                    <lightning-input type="checkbox" label="I agree to the Terms and Conditions" onchange={handleCheckboxChange} required></lightning-input>
+                </div>
+
+                <!-- Submit button (disabled until checkbox is checked) -->
+                <div class="slds-m-top_medium buttonSubmit">
+                    <lightning-button type="submit" variant="brand" label="Submit" onclick={handleSubmit} disabled={disableSubmit}></lightning-button>
+                </div>
+
+                <!-- Modal for Terms and Conditions -->
+                <template if:true={openModal}>
+                    <div class="slds-modal slds-fade-in-open">
+                        <div class="slds-modal__container">
+                            <div class="slds-modal__header">
+                                <lightning-button-icon 
+                                    icon-name="utility:close" 
+                                    alternative-text="Close this window" 
+                                    size="large"
+                                    variant="bare-inverse" 
+                                    onclick={closeModal} 
+                                    class="slds-modal__close">
+                                </lightning-button-icon>
+                                <h2>Terms and Conditions</h2>
+                            </div>
+                            <div class="slds-modal__content slds-p-around_medium">
+                                <p>I promise:</p>
+                                <p>
+                                    The information on this form is correct and complete to the best of my knowledge.
+                                    I agree to comply with the policies and requirements of the organization.
+                                    I understand that my volunteer participation may be subject to verification and audits.
+                                    I authorize the organization to contact me for any additional information or
+                                    clarification related to my volunteer participation.
+                                </p>
+                                <p>
+                                    I understand that any personal data shared in this form will be handled with confidentiality
+                                    and used only for the purposes stated in the volunteer program.
+                                    I agree that my participation may be terminated if I am found to have provided false
+                                    information or violated the terms of the volunteer program.
+                                </p>
+                            </div>
+                            <div class="slds-modal__footer">
+                                <lightning-button label="Close" onclick={closeModal}></lightning-button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-backdrop slds-backdrop_open"></div>
+                </template>
+            </lightning-record-edit-form>
+        </div>
+    </lightning-card>
+</template>

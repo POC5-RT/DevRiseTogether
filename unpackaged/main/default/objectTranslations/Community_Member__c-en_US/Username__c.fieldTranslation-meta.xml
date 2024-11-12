@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter a valid username &amp; it should be in the email format (e.g., user@example.com). This can also be the same as your email address. It must be unique and will serve as your login identifier. --></help>
+        <label><!-- Username --></label>
+        <name>Username__c</name>
+    </CustomFieldTranslation>

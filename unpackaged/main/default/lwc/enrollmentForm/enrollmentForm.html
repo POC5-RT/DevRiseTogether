@@ -1,0 +1,21 @@
+<template>
+    <lightning-record-edit-form object-api-name="Account" record-id={recordId}>
+        <lightning-input-field field-name="Name" label="Account Name"></lightning-input-field>
+        <lightning-input-field field-name="AnnualRevenue" label="Annual Revenue"></lightning-input-field>
+        <lightning-input-field field-name="BillingAddress" label="Billing Address"></lightning-input-field>
+        <lightning-input-field field-name="Industry" label="Account Industry"></lightning-input-field>
+        <lightning-input-field field-name="Phone" label="Account Phone Number"></lightning-input-field>
+        <lightning-input-field field-name="Type" label="Account Type"></lightning-input-field>
+
+        <lightning-button type="submit" variant="brand" label="Submit" onclick={handleSubmit}></lightning-button>
+    </lightning-record-edit-form>
+
+    <lightning-file-upload
+        label="Upload Supporting Document"
+        record-id={recordId}
+        accept=".pdf,.doc,.docx,.txt"
+        multiple
+        disabled={disableFileUpload}
+        onuploadfinished={handleUploadFinished}>
+    </lightning-file-upload>
+</template>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Format_Username</fullName>
+    <active>false</active>
+    <description>To ensure the username is in Email format.</description>
+    <errorConditionFormula>NOT ( REGEX( Username__c , &#39;^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}$&#39;) )</errorConditionFormula>
+    <errorDisplayField>Username__c</errorDisplayField>
+    <errorMessage>Username must be in the format of an email address (eg: user@example.com)</errorMessage>
+</ValidationRule>

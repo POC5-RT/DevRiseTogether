@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Community Member</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Community Members</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Community Member Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Approver Comments --></label>
+            <section>Approver Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Status Overview --></label>
+            <section>Status Overview</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Aadhar number must be exactly 12 digits and contain only numbers --></errorMessage>
+        <name>Aadhar_must_be_12_digits</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date of Birth cannot be a future date. --></errorMessage>
+        <name>DOB_not_future_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Username must be in the format of an email address (eg: user@example.com) --></errorMessage>
+        <name>Email_Format_Username</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Email Format Incorrect --></errorMessage>
+        <name>Email_ID_Format_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- First Name cannot contain numbers or special characters. --></errorMessage>
+        <name>First_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Last Name cannot contain numbers or special characters. --></errorMessage>
+        <name>Last_Name_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Phone number must be exactly 10 characters (letters or numbers) --></errorMessage>
+        <name>Phone_Number_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Community Member  status can not be changed to inactive once it is approved . --></errorMessage>
+        <name>Prevent_status_reversion_to_Inactive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Approval status can not be changed to Pending Once it is Approved Or Rejected --></errorMessage>
+        <name>Prevent_status_reversion_to_pending</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Community_Member_Record_Type_Id</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Community Member Record Type Id</shortDescription>
+        <value>012WU000002jktZYAQ</value>
+    </labels>
+    <labels>
+        <fullName>Community_Member_Welcome_Email_Body</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Community Member Welcome Email Body</shortDescription>
+        <value>Thank you for joining our community! We’re excited to have you onboard. &lt;br/&gt;&lt;br/&gt;
+Here are your Registration Details: &lt;br/&gt; 
+     &lt;b&gt;Member Id : {0} &lt;/b&gt;&lt;br/&gt;&lt;br/&gt;
+Your registration is currently &lt;b&gt;{2}&lt;/b&gt; approval and your membership is &lt;b&gt; {3} &lt;/b&gt;, Once approved and activated you will be notified. &lt;br/&gt;
+If you have any questions in the meantime, feel free to reach out to us.&lt;br/&gt;&lt;br/&gt;
+
+Best Regards, &lt;br/&gt;
+RiseTogether Team</value>
+    </labels>
+    <labels>
+        <fullName>Community_Member_Welcome_Email_Header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Community Member Welcome Email Header</shortDescription>
+        <value>Hello {0},</value>
+    </labels>
+    <labels>
+        <fullName>Community_Member_Welcome_Email_Subject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Community Member Welcome Email Subject</shortDescription>
+        <value>Welcome to Rise Together!</value>
+    </labels>
+    <labels>
+        <fullName>Record_Type_Id_For_Volunteer</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Record Type Id For Volunteer</shortDescription>
+        <value>012WU000002jl3FYAQ</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DOB_not_future_date</fullName>
+    <active>true</active>
+    <description>To ensure the DOB does not fall on the future dates</description>
+    <errorConditionFormula>BirthDate__c &gt; TODAY()</errorConditionFormula>
+    <errorDisplayField>BirthDate__c</errorDisplayField>
+    <errorMessage>Date of Birth cannot be a future date.</errorMessage>
+</ValidationRule>

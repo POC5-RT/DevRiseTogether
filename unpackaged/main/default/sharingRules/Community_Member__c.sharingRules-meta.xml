@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>rule_for_Community_object</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>rule for Community object</label>
+        <sharedTo>
+            <guestUser>RiseTogetherPortal</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Email__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

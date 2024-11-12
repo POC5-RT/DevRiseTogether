@@ -1,0 +1,100 @@
+{
+  "appPageId" : "8b748a41-3f91-468d-a8ed-015701c0245b",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "91f7529b-144d-43e2-ac05-c743288f4d2a",
+  "label" : "Member Registration",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e430eeb1-c1a8-4c2c-bd11-33391f68e4e0",
+          "columns" : [ {
+            "UUID" : "38945efe-dfd9-4248-852e-d84b8f50ca05",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "45ac3a32-666a-41c4-ac5a-7a93d4a13039",
+            "columnKey" : "a05c5",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "28133dd4-760e-4c06-b505-0ed05ac74b78",
+            "columnKey" : "a52d9",
+            "columnName" : "Column 3",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e430eeb1-c1a8-4c2c-bd11-33391f68e4e0",
+      "regions" : [ {
+        "id" : "38945efe-dfd9-4248-852e-d84b8f50ca05",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:communityMemberRegistration",
+          "id" : "0680dbec-c230-4f38-ad1b-1a24bbccdc45",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "45ac3a32-666a-41c4-ac5a-7a93d4a13039",
+        "regionLabel" : "Column 2",
+        "regionName" : "a05c5",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:showMemberStatus",
+          "id" : "ebddddb6-0765-425f-9af2-b89e2f604432",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "28133dd4-760e-4c06-b505-0ed05ac74b78",
+        "regionLabel" : "Column 3",
+        "regionName" : "a52d9",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d2dc4672-a018-45b9-85e2-6bde65b8feb9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Member Registration"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0bb75eee-9e8f-4134-a7d7-5e5045c41cbc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0993d2bd-18d0-4887-99f9-4b9523b19fd2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-member-registration"
+}

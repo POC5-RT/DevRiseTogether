@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Name_Check</fullName>
+    <active>true</active>
+    <description>Validation for First Name</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(First_Name__c)),
+    NOT(REGEX(First_Name__c, &quot;^[A-Za-z ]+$&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>First_Name__c</errorDisplayField>
+    <errorMessage>First Name cannot contain numbers or special characters.</errorMessage>
+</ValidationRule>

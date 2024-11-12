@@ -1,0 +1,286 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Scoped Header and Footer",
+  "contentBody" : {
+    "component" : {
+      "attributes" : { },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"016f23cc-7aed-4eab-bd6c-866065aa13a5\",\"columns\":[{\"UUID\":\"ee3310b2-0339-4ca6-a70c-76c4aee01eaa\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "bannerAlignment" : "center",
+                "bannerLinkAssistiveText" : "",
+                "borderColor" : "",
+                "borderRadius" : 0,
+                "borderWidth" : 0,
+                "buttonDirection" : "horizontal",
+                "buttonGroupAlignment" : "center",
+                "buttonGroupHeight" : 50,
+                "buttonGroupSpacingHorizontal" : "space-evenly",
+                "buttonGroupSpacingVertical" : "space-evenly",
+                "buttonGroupWidth" : 50,
+                "contentPadding" : "none",
+                "contentPosition" : "center center",
+                "contentWidth" : 62,
+                "height" : 100,
+                "imageFit" : "cover",
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVlkhQfnw1mosOdEpKNc5r90RQxQyGYbJ9Gtvr_H3bDba7YBD3v_zS9RE5aTy6SZLUBKw&usqp=CAU\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                "imagePosition" : "center center",
+                "isBannerLink" : false,
+                "overlayColor" : "rgba(83, 215, 212, 0)",
+                "showButtons" : false,
+                "showSecondaryButton" : false,
+                "singleButtonAlignment" : "center",
+                "width" : 100
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "backgroundColor" : "rgba(255, 255, 255, 0)",
+                    "isLinkable" : false,
+                    "linkAssistiveText" : "",
+                    "paddingHorizontal" : "none",
+                    "paddingVertical" : "none",
+                    "text" : "Empowering Communities, Uplifting Lives",
+                    "textAlign" : "center",
+                    "textColor" : "rgb(7, 28, 91)",
+                    "textDecoration" : "{\"bold\":true}",
+                    "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+                  },
+                  "definition" : "dxp_base:textBlock",
+                  "id" : "17e02cea-a039-452f-8026-cb6bb3f2cfb3",
+                  "type" : "component"
+                }, {
+                  "attributes" : {
+                    "richTextValue" : "<p style=\"text-align: center;\"><strong style=\"font-size: 20px; color: rgb(0, 41, 102);\"><span class=\"ql-cursor\">﻿</span>\"Join Us on Our Mission to Create Lasting Change Through Collective Action and Compassionate Support.\"</strong><strong style=\"background-color: rgb(0, 71, 178); font-size: 12px;\">﻿</strong></p>"
+                  },
+                  "definition" : "community_builder:richTextEditor",
+                  "id" : "cccefc7c-cc18-4eb4-99ff-dfc5ff13eaa2",
+                  "type" : "component"
+                } ],
+                "id" : "d1d2ccc1-9d31-418c-8665-95f7663af4b8",
+                "name" : "contentRegion",
+                "title" : "contentRegion",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "left",
+                    "dxpStyle" : {
+                      "isVisible" : false
+                    },
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Learn More",
+                    "type" : "primary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "46ce2517-375e-4fd9-a40a-43ac1ca784b6",
+                  "type" : "component"
+                } ],
+                "id" : "ce9f4cea-3184-4c30-ab77-465682a16d9d",
+                "name" : "bannerPrimaryButton",
+                "title" : "bannerPrimaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "size" : "standard",
+                    "stretch" : "standard",
+                    "text" : "Contact Us",
+                    "type" : "secondary"
+                  },
+                  "definition" : "dxp_base:button",
+                  "id" : "9fc918dd-814f-4866-8af9-214dd8e1e11f",
+                  "type" : "component"
+                } ],
+                "id" : "58a60fe0-6247-4024-9b0d-32ed19bdc6c6",
+                "name" : "bannerSecondaryButton",
+                "title" : "bannerSecondaryButton",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : { },
+                  "definition" : "dxp_page_layout:placeHolder",
+                  "id" : "75644cd4-e52e-42f9-9134-8a6b064c3ca6",
+                  "type" : "component"
+                } ],
+                "id" : "31ef3aff-fd2f-47a9-88b3-fea8e3ba9c3e",
+                "name" : "placeholder",
+                "title" : "placeholder",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_content_layout:banner",
+              "id" : "848d7c97-fbb2-4658-b1af-afde14bfdeb6",
+              "type" : "component",
+              "variations" : [ {
+                "attributes" : {
+                  "backgroundColor" : "",
+                  "bannerAlignment" : "center",
+                  "bannerLinkAssistiveText" : "",
+                  "borderColor" : "",
+                  "borderRadius" : 0,
+                  "borderWidth" : 0,
+                  "buttonDirection" : "horizontal",
+                  "buttonGroupAlignment" : "center",
+                  "buttonGroupHeight" : 50,
+                  "buttonGroupSpacingHorizontal" : "space-evenly",
+                  "buttonGroupSpacingVertical" : "space-evenly",
+                  "buttonGroupWidth" : 50,
+                  "contentPadding" : "none",
+                  "contentPosition" : "center center",
+                  "contentWidth" : 50,
+                  "height" : 100,
+                  "imageFit" : "cover",
+                  "imageInfo" : "{\"imageInfoV1\":{\"url\":\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVlkhQfnw1mosOdEpKNc5r90RQxQyGYbJ9Gtvr_H3bDba7YBD3v_zS9RE5aTy6SZLUBKw&usqp=CAU\",\"altText\":\"\",\"contentKey\":\"\",\"contentType\":null}}",
+                  "imagePosition" : "center center",
+                  "isBannerLink" : false,
+                  "overlayColor" : "rgba(83, 215, 212, 0)",
+                  "showButtons" : true,
+                  "showSecondaryButton" : false,
+                  "singleButtonAlignment" : "center",
+                  "width" : 100
+                },
+                "children" : [ {
+                  "children" : [ {
+                    "attributes" : {
+                      "backgroundColor" : "rgba(255, 255, 255, 0)",
+                      "isLinkable" : false,
+                      "linkAssistiveText" : "",
+                      "paddingHorizontal" : "none",
+                      "paddingVertical" : "none",
+                      "text" : "Empowering Communities, Uplifting Lives",
+                      "textAlign" : "center",
+                      "textColor" : "rgb(7, 28, 91)",
+                      "textDecoration" : "{\"bold\":true}",
+                      "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+                    },
+                    "definition" : "dxp_base:textBlock",
+                    "id" : "812424ec-32c8-4496-8643-42dad5a7d2bc",
+                    "type" : "component"
+                  } ],
+                  "id" : "90557768-b869-41f1-9156-f5481de53ace",
+                  "name" : "contentRegion",
+                  "title" : "contentRegion",
+                  "type" : "region"
+                }, {
+                  "children" : [ {
+                    "attributes" : {
+                      "alignment" : "left",
+                      "dxpStyle" : {
+                        "isVisible" : false
+                      },
+                      "size" : "standard",
+                      "stretch" : "standard",
+                      "text" : "Learn More",
+                      "type" : "primary"
+                    },
+                    "definition" : "dxp_base:button",
+                    "id" : "b89d1a60-9c97-4e73-8415-2aa03ca1a313",
+                    "type" : "component"
+                  } ],
+                  "id" : "8b768a20-53d5-49a7-a153-3ee5deffa349",
+                  "name" : "bannerPrimaryButton",
+                  "title" : "bannerPrimaryButton",
+                  "type" : "region"
+                }, {
+                  "children" : [ {
+                    "attributes" : {
+                      "alignment" : "center",
+                      "size" : "standard",
+                      "stretch" : "standard",
+                      "text" : "Contact Us",
+                      "type" : "secondary"
+                    },
+                    "definition" : "dxp_base:button",
+                    "id" : "3e5c9701-73fd-4b5f-932a-acd5a7ba371c",
+                    "type" : "component"
+                  } ],
+                  "id" : "017f11bb-c084-41e6-b620-f98a7c109d3d",
+                  "name" : "bannerSecondaryButton",
+                  "title" : "bannerSecondaryButton",
+                  "type" : "region"
+                }, {
+                  "children" : [ {
+                    "attributes" : { },
+                    "definition" : "dxp_page_layout:placeHolder",
+                    "id" : "c33a43a0-2ebd-4f2a-a0b9-36b760513cc4",
+                    "type" : "component"
+                  } ],
+                  "id" : "b67b85c9-2329-4f76-81c5-c47576937f45",
+                  "name" : "placeholder",
+                  "title" : "placeholder",
+                  "type" : "region"
+                } ],
+                "definition" : "dxp_content_layout:banner",
+                "id" : "fe70e4b0-ff66-4e16-aa5c-e9b1d6b61e38",
+                "title" : "sub heading",
+                "type" : "mutationComponent"
+              } ]
+            } ],
+            "id" : "ee3310b2-0339-4ca6-a70c-76c4aee01eaa",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "016f23cc-7aed-4eab-bd6c-866065aa13a5",
+          "type" : "component"
+        } ],
+        "id" : "8f833c2e-870d-4c69-99e2-f197ebf40565",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"5ea40456-9c66-4b85-ad15-d5c44e75e02b\",\"columns\":[{\"UUID\":\"4e7a0dc3-3c05-4965-98b4-d77d284feb70\",\"columnName\":\"Theme Footer\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "4e7a0dc3-3c05-4965-98b4-d77d284feb70",
+            "name" : "footerSection",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "5ea40456-9c66-4b85-ad15-d5c44e75e02b",
+          "type" : "component"
+        } ],
+        "id" : "a2fb9417-1511-4540-8430-3a5d899fc223",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "community_byo:scopedHeaderAndFooter",
+      "id" : "9f943a71-32ba-43ff-833f-10ad1928cadc",
+      "type" : "component"
+    }
+  },
+  "urlName" : "scoped-header-and-footer"
+}

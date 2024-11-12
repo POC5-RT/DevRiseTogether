@@ -1,0 +1,15 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  <p><img alt="mainLogo" src="{[devName:mainLogo4]}" style="max-width: 1267.7882202148437px" title="mainLogo" />Hi {{{Recipient.FirstName}}},</p>
+  <p>Welcome&nbsp; !</p>
+  <p>Below are your login details for accessing our platform:</p>
+  <p><strong>Username:</strong>&nbsp;{{{Recipient.Email}}}<br /> <strong>Password:</strong>&nbsp;{{{Recipient.Password__c}}}</p>
+  <p>LOGIN URL : <a href="https://ajsd-b-dev-ed.develop.my.site.com/RiseTogetherPortal/s/login/?startURL=%2FRiseTogetherPortal%2Fs%2Fvolunteer-registration%3Ft%3D1730152198855">Click Here</a></p>
+  <p>If you have any questions or need assistance, feel free to reach out to our support team.</p>
+  <p>Once again, welcome to the team! We're looking forward to seeing you around.</p>
+  <p>Best Regards,<br /> RiseTogether Team<br /> <br /> &nbsp;</p>
+ </body>
+</html>
